@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask DevOps App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">DevOpsLab</div>
+        <div>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/health">Health</a>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="badge">FLASK + DEVOPS</div>
+        <h1>Docker Hands-on Application</h1>
+        <p>
+            A small Flask application created for practicing
+            Python dependencies, Docker images, containers,
+            port mapping and deployment.
+        </p>
+
+        <div class="buttons">
+            <a class="btn" href="/about">Explore App</a>
+            <a class="btn secondary" href="/health">Check Health</a>
+        </div>
+    </main>
+
+    <section class="cards">
+        <div class="card">
+            <h3>🐍 Flask</h3>
+            <p>Python web application framework.</p>
+        </div>
+        <div class="card">
+            <h3>📦 Dependencies</h3>
+            <p>Installed using requirements.txt.</p>
+        </div>
+        <div class="card">
+            <h3>🐳 Docker</h3>
+            <p>Containerize and run this application.</p>
+        </div>
+        <div class="card">
+            <h3>☁️ Deployment</h3>
+            <p>Ready for AWS EC2 hands-on practice.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Flask DevOps Hands-on Project • 2026</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - DevOpsLab</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">DevOpsLab</div>
+        <div>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/health">Health</a>
+        </div>
+    </nav>
+
+    <main class="page">
+        <div class="badge">ABOUT PROJECT</div>
+        <h1>Flask Docker Practice</h1>
+        <p>
+            This project is intentionally small so you can focus on
+            the DevOps workflow instead of complicated application code.
+        </p>
+
+        <div class="info">
+            <h2>Technologies</h2>
+            <ul>
+                <li>Python 3</li>
+                <li>Flask</li>
+                <li>pip</li>
+                <li>requirements.txt</li>
+                <li>Docker</li>
+                <li>Linux</li>
+                <li>AWS EC2</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h2>Practice Goal</h2>
+            <p>
+                Install dependencies, run Flask locally, create a Dockerfile,
+                build an image, run a container, map ports, inspect logs,
+                publish the image and deploy the application on EC2.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Flask DevOps Hands-on Project • 2026</p>
+    </footer>
+</body>
+</html>
